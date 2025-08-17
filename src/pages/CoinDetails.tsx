@@ -133,9 +133,8 @@ const CoinDetails: React.FC = () => {
         <h2 className="text-2xl font-bold text-white mb-6">Price Chart</h2>
         <div className="h-96 bg-gradient-to-r from-blue-600/10 to-cyan-600/10 rounded-lg flex items-center justify-center border border-white/10" ref={chartShow}>
           <div className="text-center">
-            <div className="text-6xl mb-4">📈</div>
-            <p className="text-gray-400">About to add the chart ui but is giving Error</p>
-            <p className="text-gray-500 text-sm mt-2">Connect to a real crypto API for live data</p>
+            {/* <div className="text-6xl mb-4">📈</div>
+            <p className="text-gray-500 text-sm mt-2">Connect to a real crypto API for live data</p> */}
           </div>
         </div>
       </div>
